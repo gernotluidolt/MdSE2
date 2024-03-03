@@ -1,10 +1,13 @@
-#ifndef MDSE2_ITEM_H
-#define MDSE2_ITEM_H
+#ifndef ITEM_H
+#define ITEM_H
+#include <string>
 
-
-class item {
-
+struct Item_t {
+    std::string name;
+    int value;
+    bool isValid;
 };
 
-
-#endif //MDSE2_ITEM_H
+void initItem(Item_t* ITEM, char* name, int gold);
+void initItem(Item_t* gegenstand);
+#endif //ITEM_H
