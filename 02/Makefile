@@ -1,5 +1,5 @@
 # Name of the binary
-BINARY = prototyp
+BINARY = prototyp2
 # Object files
 OBJS   = main.o hero.o character.o item.o
 # Compiler flags
